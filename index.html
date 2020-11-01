@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="assets/stylesheets/main.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    </head>
+    <body>
+        <h1 id="title">Pirate Survey</h1>
+        <p id="description">We want to know more about the different kinds of pirate out there.</p>
+        <form id="survey-form">
+            <div class="question">
+                <label id="name-label" class="required">Your Name</label>
+                <input type="text" class="textbox" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="question">
+                <label id="ship-label" class="required">Ship Name</label>
+                <input type="text" class="textbox" id="ship" placeholder="Ship Name" required>
+            </div>
+            <div class="question">
+                <label id="email-label" class="required">Your Email Address</label>
+                <input type="email" class="textbox" id="email" placeholder="example@domain.com" required>
+            </div>
+            <div class="question">
+                <label id="number-label">How many cannons are aboard your ship?</label>
+                <input type="number" class="textbox" id="number" placeholder="No. of cannons" min="6" max="40">
+            </div> 
+            <div class="question">
+                <p>Which be the best weapon to defeat ye enemies?</p>
+                <select id="dropdown" placeholder>
+                    <option disabled selected value>Choose ye weapon!</option>
+                    <option>Cutlass</option>
+                    <option>Blunderbuss</option>
+                    <option>Pistol</option>
+                </select>
+            </div>
+            <div class="question">
+                <p>Do ye love buried treasure?</p>
+            <label class="options">
+                <input type="radio" name="buried-treasure" value="yes">
+                "Aaarrr of course!"
+            </label>
+            <label class="options">
+                <input type="radio" name="buried-treasure" value="Perhaps">
+                "Perhaps..."
+            </label>
+            <label class="options">
+                <input type="radio" name="buried-treasure" value="no">
+                "No chance"
+            </label>
+            </div>
+            <div class="question">
+                <p>Do ye have any of these?</p>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="parrot">
+                    "Parrot"
+                </label>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="tircorne">
+                    "Tricorne (Pirate Hat)"
+                </label>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="telescope">
+                    "Telescope"
+                </label>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="eye-patch">
+                    "Eye Patch"
+                </label>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="peg-leg">
+                    "Peg Leg"
+                </label>
+                <label class="options">
+                    <input type="checkbox" name="stereotypes" value="hook">
+                    "Hand Hook"
+                </label>
+            </div>
+            <div class="question">
+                <p>Do ye have any additional words before ye walk the plank?</p>
+                <textarea name="comments" class="textbox" placeholder="Aaarrr, add your comments here..."></textarea>
+            </div>
+            <button id="submit">Submit</button>
+        </form>
+    </body>
+</html>
