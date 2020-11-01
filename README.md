@@ -1,6 +1,6 @@
 # FCC Project: Survey Form
 
-A survey form to collect information from pirates.
+A survey form to collect information from pirates. Part of the FCC Responsive Web Design course.
 
 ## Contents
 
@@ -74,9 +74,13 @@ Create a form that works responsively and meets what I know of UI best practice.
 
 Running this project locally should be nice and easy! Either download the repository from Github or use the viewer on Codepen.
 
-### Prerequisites: None
+### Prerequisites
 
-### Running: Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser.
+None
+
+### Running
+
+Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser.
 
 
 ## Built With
