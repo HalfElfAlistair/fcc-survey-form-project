@@ -1,6 +1,6 @@
 # FCC Project: Survey Form
 
-A survey form to collect information from pirates.
+A survey form to collect information from pirates. Part of the FCC Responsive Web Design course.
 
 ## Contents
 
