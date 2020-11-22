@@ -119,6 +119,6 @@ A friend who works in UI and helped with tips on best practice.
 
 ## Author Notes
 
-I didn't go overboard with the CSS here by any means. I figure simplicity and functionality are more important with a survey form. That said, I'm not convinced by the aesthetic so may go back and make some changes to this at a later date. I've seen a few other examples of this project where people set an image background, which could work nicely.
-
 The pirate theme was resumed for this project, I'm rather enjoying that one.
+
+I got a little artsy and drew up a treasure map to use as the background for this project. As you can tell, I'm no artist, but with a few filters it hasn't turned out too bad in my opinion. It certainly looks a lot better than my original version of this page where the css was pretty basic. I even tried to get a pirate gold effect going for my submit button!
